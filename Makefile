@@ -2,7 +2,7 @@
 # Student makefile for Cache Lab
 # 
 CC = gcc
-CFLAGS = -g -Wall -Werror -std=c99
+CFLAGS = -g -Wall -std=c99
 
 all: csim test-trans tracegen
 	# Generate a handin tar file each time you compile
